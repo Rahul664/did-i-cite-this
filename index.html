@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Did I Cite You</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="./assets/icons/question-mark.png">
+  <script src="https://cdn.jsdelivr.net/npm/bibtex-parse-js/bibtexParse.min.js"></script>
+  <script src="script.js"></script>
+</head>
+
+<body>
+  <div class="container">
+    <h1> </h1>
+    <h1>
+    🔎 BibTeX Duplicate Citations Checker 
+    </h1>
+    <p>Upload your <code>.bib</code> file to find duplicate citations.</p>
+    
+    <div id="drop-area">
+      <p>Drag & drop file here or click to browse</p>
+      <input type="file" id="file-input" accept=".bib">
+    </div>
+
+    <div id="results" class="hidden">
+        <h2 class="results-heading">
+        <img src="./assets/icons/detection.png" alt="Detection icon" class="results-icon">
+        Results
+        </h2>
+        <div id="duplicates-list"></div>  
+    </div>
+  </div>
+
+  <footer class="site-footer">
+    <div class="footer-content">
+      <div class="footer-brand">
+        <img src="./assets/icons/question-mark.png" alt="GitHub logo" class="footer-github-logo">
+        <div class="footer-title">
+          <span class="footer-app-name">Did I Cite This</span>
+        </div>
+        <div class="footer-author">
+          Created by
+          <a href="https://github.com/Rahul664" target="_blank" rel="noopener" class="footer-author-link">
+            Rahul S H
+            <img src="./assets/icons/github_logo.png" alt="GitHub logo" class="footer-github-logo-inline">
+          </a>
+        </div>
+      </div>
+      <div class="footer-ack">
+        <span>
+          Icons by 
+          <a href="https://www.flaticon.com/free-icons/question-mark" target="_blank" rel="noopener" title="question mark icons">Freepik - Flaticon</a>
+          &nbsp;|&nbsp;
+          Styled with the help of GitHub Copilot <img src="./assets/icons/github_copilot.png" alt="Copilot icon" style="height:1em;vertical-align:middle;">
+        </span>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>

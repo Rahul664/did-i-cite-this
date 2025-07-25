@@ -1,0 +1,203 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #f7f9fb;
+}
+
+.container {
+  max-width: 700px;
+  margin: 32px auto;
+  padding: 16px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+}
+
+#drop-area 
+{
+  border: 2px dashed #ccc;
+  padding: 20px;
+  text-align: center;
+  cursor: pointer;
+}
+
+#drop-area:hover 
+{
+  background: #f9f9f9;
+}
+
+.hidden 
+{ display: none; }
+
+.duplicate 
+{
+  background: #ffecec;
+  padding: 10px;
+  margin: 5px 0;
+  border-left: 3px solid red;
+}
+
+.results-heading {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.results-icon {
+  height: 1em; 
+  width: auto; 
+  vertical-align: middle;
+}
+
+.duplicate-group {
+  margin-bottom: 32px;
+  padding: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background: #fafafa;
+}
+
+.dup-title {
+  color: #2a5d9f;
+  font-weight: bold;
+}
+
+.dup-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 12px;
+}
+
+.dup-table th,
+.dup-table td {
+  border: 1px solid #bbb;
+  padding: 8px 12px;
+  text-align: left;
+}
+
+.dup-table th {
+  background: #e6f0fa;
+  font-weight: bold;
+}
+
+.dup-table tr:nth-child(even) {
+  background: #f5f5f5;
+}
+
+.site-footer {
+  width: 100%;
+  background: #eaf2fb;
+  border-top: 1px solid #d0e2f2;
+  margin-top: 100px;
+  padding: 32px 0 24px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  width: 100%;
+}
+
+.footer-brand {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.footer-github-logo {
+  width: 40px;
+  height: 40px;
+  margin-bottom: 8px;
+}
+
+.footer-title {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 1.3em;
+  font-weight: bold;
+  color: #2a5d9f;
+}
+
+.footer-site-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.footer-author {
+  font-size: 1em;
+  color: #333;
+}
+
+.footer-author-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  text-decoration: none;
+  color: inherit;
+}
+
+.footer-github-logo-inline {
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+  margin-left: 4px;
+}
+
+.footer-ack {
+  font-size: 0.98em;
+  color: #555;
+  text-align: center;
+}
+
+@media (max-width: 800px) {
+  .container {
+    max-width: 98vw;
+    margin: 16px;
+    padding: 8px;
+  }
+  .dup-table th, .dup-table td {
+    padding: 6px 4px;
+    font-size: 0.95em;
+  }
+  h1, h2 {
+    font-size: 1.3em;
+  }
+}
+
+@media (max-width: 600px) {
+  .site-footer {
+    padding: 18px 0 12px 0;
+  }
+  .footer-title {
+    font-size: 1em;
+  }
+  .footer-github-logo {
+    width: 32px;
+    height: 32px;
+  }
+  .footer-site-icon {
+    width: 18px;
+    height: 18px;
+  }
+}
+
+@media (max-width: 500px) {
+  .container {
+    padding: 2vw;
+  }
+  .dup-table, .dup-table th, .dup-table td {
+    font-size: 0.85em;
+  }
+  .site-footer {
+    font-size: 0.95em;
+    padding: 12px 2px;
+  }
+}
