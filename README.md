@@ -5,22 +5,18 @@
 
 ## ❓ Tired of Duplicate BibTeX Entries?
 
-Ever worked on a paper with multiple co-authors and found yourself wondering:
-- *"Wait… didn’t we already cite this paper?"*
-- *"Why are there two different keys for the same reference?"*
-- *"Why do we only notice duplicates the night before submission?"* 😫
+Collaborating on a paper and end up citing the same source twice with different keys?  
+Caught duplicate references just before submission? Been there.
 
-If you’ve been there — **I have too**. More than once.
+_Detects and removes duplicate BibTeX entries — no manual hassle._
 
 ---
 
-## 💡 Introducing: **Did I Cite This?**
+## 💡 **Did I Cite This?**
 
-This simple, no-fuss tool helps you:
-- ✅ Quickly check your `.bib` file for **duplicate citations**
-- 🔍 Find entries that look the same but have different keys
-- ⏱️ Save time on manual checks during proofreading
-- 🤝 Avoid last-minute chaos when collaborating with co-authors
+**Did I Cite This?** is a simple, drag-and-drop utility that scans your `.bib` file, detects duplicates by title, and saves you time and hassle during proofreading.
+
+No setup. No stress. Just clean citations. ✅
 
 ---
 
@@ -35,13 +31,15 @@ This simple, no-fuss tool helps you:
 
 ## 🧪 Why I Built This
 
-As a research student, I’ve been caught in the chaos of BibTeX mess-ups more times than I’d like to admit — especially when working in large collaborations. This tool exists to make sure **you don’t have to go through that**.
+As a research student, I’ve been caught in the chaos of BibTeX mess-ups more times than I’d like to admit — especially when working in collaborations. 
+
+This tool exists to make sure **you don’t have to go through that manually**.
 
 ---
 
-## ☕ Like the tool? Buy me a coffee!
+## ☕ Like the tool?
 
-If this little utility saved you some headache (or panic), feel free to show support here:
+If this little utility saved you some chaos, feel free to show support here:
 
 <p align="center">
   <a href="https://www.buymeacoffee.com/rahulsh">
